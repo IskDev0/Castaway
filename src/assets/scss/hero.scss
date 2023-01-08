@@ -1,0 +1,33 @@
+.hero {
+  &__img {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    position: relative;
+    &:after {
+      position: absolute;
+      content: url("../../assets/images/icons/email-particles.svg");
+      top: 0;
+      left: 0;
+
+    }
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    &-list {
+      display: flex;
+      align-items: center;
+      gap: 17px;
+      padding-top: 15px;
+    }
+  }
+  &__text {
+    &-title {
+      font-size: 3.889rem;
+      padding-bottom: 75px;
+    }
+  }
+}
