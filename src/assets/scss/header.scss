@@ -1,0 +1,15 @@
+.header {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+  }
+  &__nav {
+    display: flex;
+    gap: 40px;
+    &-link:focus {
+      color: #118DA8;
+    }
+  }
+}

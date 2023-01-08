@@ -1,2 +1,19 @@
 @import "normalize";
+@import "fonts";
+@import "header";
 
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "DM Sans", Arial, sans-serif;
+  background: #191919;
+  color: #fff;
+}
+
+.container {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
