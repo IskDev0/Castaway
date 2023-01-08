@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer id="footer" class="footer">
     <div class="container">
       <div class="footer__wrapper">
         <div class="footer__links">
@@ -15,10 +15,10 @@
           </div>
         </div>
         <ul class="footer__list">
-          <li class="footer__list-item"><a href="" class="footer__list-link">Home</a></li>
-          <li class="footer__list-item"><a href="" class="footer__list-link">About</a></li>
-          <li class="footer__list-item"><a href="" class="footer__list-link">Episodes</a></li>
-          <li class="footer__list-item"><a href="" class="footer__list-link">Contact</a></li>
+          <li class="footer__list-item"><a href="/" class="footer__list-link">Home</a></li>
+          <li class="footer__list-item"><a href="#about" class="footer__list-link">About</a></li>
+          <li class="footer__list-item"><a href="#episodes" class="footer__list-link">Episodes</a></li>
+          <li class="footer__list-item"><a href="#footer" class="footer__list-link">Contact</a></li>
         </ul>
         <ul class="footer__list">
           <li class="footer__list-item"><a href="" class="footer__list-link">Style Guide</a></li>

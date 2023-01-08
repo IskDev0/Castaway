@@ -1,5 +1,5 @@
 <template>
-  <section class="latest section">
+  <section id="episodes" class="latest section">
     <div class="container">
       <div class="episodes">
         <div class="episode" v-for="episode in reversedEpisodes" :key="episode.id">
