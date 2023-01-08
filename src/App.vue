@@ -1,11 +1,13 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import {RouterView} from 'vue-router'
 import TheHeader from "./components/TheHeader.vue"
 import TheHero from "./components/TheHero.vue"
+import LatestEpisodes from "./components/LatestEpisodes.vue";
 </script>
 
 <template>
   <TheHeader/>
   <TheHero/>
-  <RouterView />
+  <LatestEpisodes/>
+  <RouterView/>
 </template>
