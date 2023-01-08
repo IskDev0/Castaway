@@ -44,6 +44,7 @@ textarea{
 }
 input[type=submit]{
   border: none;
+  cursor: pointer;
 }
 input[type=submit]:focus{
   outline: none;

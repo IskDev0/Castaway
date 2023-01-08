@@ -1,0 +1,45 @@
+.newsletter {
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    border-radius: 32px;
+    padding: 60px;
+    position: relative;
+
+    &:after {
+      position: absolute;
+      content: url("../images/icons/email-particles.svg");
+      left: -20px;
+      bottom: -30px;
+    }
+  }
+
+  &__text {
+    max-width: 400px;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .form__input {
+    background: #191919;
+    border: 1px solid #191919;
+    color: #fff;
+    border-radius: 6px;
+    padding: 25px 20px;
+    font-size: 1.333rem;
+
+    &:focus {
+      outline: none;
+      border: 1px solid #fff;
+    }
+  }
+}
