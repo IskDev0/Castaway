@@ -1,0 +1,22 @@
+.review{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 50px;
+  background: #000;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  border-radius: 32px;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  &__text {
+    font-size: 2rem;
+  }
+}
+.score {
+  display: flex;
+  gap: 5px;
+}
