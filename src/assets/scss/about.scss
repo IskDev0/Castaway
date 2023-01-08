@@ -1,0 +1,24 @@
+.about {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  &__arrow {
+    padding-bottom: 20px;
+  }
+  &__title {
+    font-size: 3.611rem;
+  }
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  &__img {
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+  }
+}

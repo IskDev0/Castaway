@@ -3,6 +3,7 @@
 @import "header";
 @import "hero";
 @import "episodes";
+@import "about";
 
 html {
   font-size: 18px;
@@ -38,4 +39,12 @@ body {
 
 .section {
   padding: 100px 0;
+  &__subtitle {
+    color: #118DA8;
+  }
+}
+.desc {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 150%;
+  font-size: 1.222rem;
 }
