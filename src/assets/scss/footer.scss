@@ -1,0 +1,21 @@
+.footer{
+  padding: 100px 0;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+  }
+  &__links-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__social-wrapper{
+    display: flex;
+    gap: 20px;
+  }
+}
