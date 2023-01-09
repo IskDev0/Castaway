@@ -14,7 +14,9 @@
         <div @click="openMobileMenu" class="openMobile"><div class="openMobile-line"></div></div>
       </div>
     </div>
+    <Transition name="slide-fade">
     <MobileMenu @close="closeMobile" v-if="show" />
+    </Transition>
   </header>
 </template>
 
