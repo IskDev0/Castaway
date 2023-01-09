@@ -16,4 +16,5 @@ import TheFooter from "./components/TheFooter.vue";
   <EmailNewsletter/>
   <ReviewSection/>
   <TheFooter/>
+  <RouterView/>
 </template>

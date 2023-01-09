@@ -2,16 +2,7 @@
   <section id="episodes" class="latest section">
     <div class="container">
       <div class="episodes">
-        <div class="episode" v-for="episode in reversedEpisodes" :key="episode.id">
-          <img :src="episode.image" alt="podcast image">
-          <div class="episode__text">
-            <p class="episode__genre">{{ episode.genre }}</p>
-            <p class="episode__number section__subtitle">Episode {{ episode.id }}</p>
-            <p class="episode__title section__title">{{ episode.title }}</p>
-            <p class="episode__desc desc">{{ episode.desc }}</p>
-            <button class="episode__btn btn">View Episode Details</button>
-          </div>
-        </div>
+        <EpisodeItem :episode="episode" class="episode" v-for="episode in reversedEpisodes" :key="episode.id"/>
       </div>
     </div>
   </section>
@@ -20,6 +11,7 @@
 <script setup>
 import data from "../data";
 import {computed} from "vue";
+import EpisodeItem from "./EpisodeItem.vue";
 
 let latest = data.slice(0, 3)
 

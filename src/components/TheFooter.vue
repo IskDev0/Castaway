@@ -21,12 +21,12 @@
           <li class="footer__list-item"><a href="#footer" class="footer__list-link">Contact</a></li>
         </ul>
         <ul class="footer__list">
-          <li class="footer__list-item"><a href="" class="footer__list-link">Style Guide</a></li>
-          <li class="footer__list-item"><a href="" class="footer__list-link">Instructions</a></li>
-          <li class="footer__list-item"><a href="" class="footer__list-link">Changelog</a></li>
-          <li class="footer__list-item"><a href="" class="footer__list-link">Credit</a></li>
-          <li class="footer__list-item"><a href="" class="footer__list-link">Powered by Webflow</a></li>
-          <li class="footer__list-item"><a href="" class="footer__list-link">Licenses</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__list-link">Style Guide</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__list-link">Instructions</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__list-link">Changelog</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__list-link">Credit</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__list-link">Powered by Webflow</a></li>
+          <li class="footer__list-item"><a href="#" class="footer__list-link">Licenses</a></li>
         </ul>
         <div class="footer__social-wrapper">
           <a href="https://spotify.com" target="_blank" class="footer__social-item"><img src="../assets/images/icons/spotify.svg" alt="spotify"></a>
