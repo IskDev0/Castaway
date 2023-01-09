@@ -1,15 +1,27 @@
 .header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  background: #191919;
+
   &__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 25px 0;
   }
+
   &__nav {
     display: flex;
     gap: 40px;
+
     &-link:focus {
       color: #118DA8;
     }
   }
+}
+
+.openMobile {
+  display: none;
 }

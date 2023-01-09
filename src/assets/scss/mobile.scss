@@ -1,0 +1,65 @@
+.mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  text-align: center;
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 2rem;
+  }
+}
+
+.openMobile {
+  position: relative;
+  z-index: 1000;
+
+  &-line {
+    background: #fff;
+    height: 2px;
+    width: 24px;
+    transition: 0.3s ease;
+
+    &:after,
+    &:before {
+      transition: 0.3s ease;
+      position: absolute;
+      content: " ";
+      height: 2px;
+      width: 100%;
+      background: #fff;
+    }
+
+    &:after {
+      transform: translateY(-8px)
+    }
+
+    &:before {
+      transform: translateY(8px)
+    }
+  }
+}
+
+.active {
+  background: transparent;
+
+  &:before {
+    background: #fff;
+    transform: rotate(45deg)
+  }
+
+  &:after {
+    background: #fff;
+    transform: rotate(-45deg)
+  }
+}
