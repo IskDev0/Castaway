@@ -1,0 +1,35 @@
+.details {
+  padding: 100px 0;
+  &__wrapper {
+    display: flex;
+    background: #000;
+    padding: 50px;
+    border-radius: 32px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 0;
+  }
+  &__desc {
+    font-size: 1.222rem;
+    line-height: 150%;
+  }
+  &__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__social-wrapper {
+    display: flex;
+    gap: 15px;
+  }
+}
+.rating__wrapper {
+  display: flex;
+  gap: 5px;
+}

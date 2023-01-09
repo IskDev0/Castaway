@@ -1,0 +1,64 @@
+{
+  "episodesData": [
+    {
+      "id": 1,
+      "genre": "Gear",
+      "title": "The best microphone under $200",
+      "body": "With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.",
+      "image": "../assets/images/podcast/podcast-image1.jpg",
+      "desc": {
+        "fullBody": "Stenoment öns. Divis varat för att etnopatologi. Fevar treskade. Segt treska huruvida tiprese. Begen ädement. Multilogi ång. Dialigt dekanade ten. Astrol hypobonera ambigen. Nyrtad maras. Epiligen tes. Spegöling dinegt. Porat begt. Sten Carlsson magt. Äjylig nyverade vetyktig. Nal realig. Dovis misade. Onande vyll. Oskapet mapreboska. ",
+        "date": "2.12.2022",
+        "rating": 5
+      }
+    },
+    {
+      "id": 2,
+      "genre": "Tips & Tricks",
+      "title": "Mic tricks to take you to the next level",
+      "body": "Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.",
+      "image": "../assets/images/podcast/podcast-image2.jpg",
+      "desc":  {
+        "fullBody": "Prodynat ora did. Häv kron. Teramani antinera. Migt ack. Haren uggling kroren. Okesk trick. Exorinde vir när spesm. Håtelingar chefsnappning. Nyska realedes. Tetraliga homovähäss bemude. Mölyra. Nism bedan krojade. Heteron borad telesk. Cynfas seling diastat. Resamma mal. Sorenek göväv, preling. Polynde mupresat. Exongen neopod, poköska. ",
+        "date": "9.12.2022",
+        "rating":  3
+      }
+    },
+    {
+      "id": 3,
+      "genre": "Gear",
+      "title": "Should you get outboard audio gear?",
+      "body": "Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.",
+      "image": "../assets/images/podcast/podcast-image3.jpg",
+      "desc":  {
+        "fullBody": "Föda. Demilogi pivys eulöning. Malåd tena, då exovys. Renat däre ifall decibelt. Röfören resam prong. Onde hitiment. Kask tessade, telig. Nysöning. Fajöment bilig. Adam Bengtsson dibelt mobilstrumpa. Bakrol krotons. Vare decitulig otägåktiga. Hodement seska. Kror homodinat. Operastat tiska. Antetolig dytuskade. Visosm pegon reare. Segåhet disade krorade. Presade osm egod. Sodytt teran. Nynde fönin. ",
+        "date":  "16.12.2022",
+        "rating":  4
+      }
+    },
+    {
+      "id": 4,
+      "genre": "Tips & Tricks",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing.",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut dignissimos distinctio dolore eveniet quo quod ratione ut velit, voluptas.",
+      "image": "../assets/images/podcast/podcast-image1.jpg",
+      "desc":  {
+        "fullBody": "Metalog mins kalogi dins. Ar tetras astrorat. Pseudoren arade. Procentrism keniledes sana. Pos exod rek. Ultraliga att. Sperena. Gigaskapet nylig maledes men dilig. Polyr vissade soren. Tremint tasa, om än pantotal tell. Astron oment i anasion. Multinas mar. Tiledes. Gigartad ponat. Far tijän att nände. Gåmir nyfarad pant det heteropost. Kyten preren sperade. Laling tessade. Krora jyde fen att nyfebåsk. Der värtad farår. Poda håning mikronas grafen. ",
+        "date":  "23.12.2022",
+        "rating":  5
+      }
+    },
+    {
+      "id": 5,
+      "genre": "Gear",
+      "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium cupiditate eaque eos error et obcaecati odit qui. A debitis dolores, ea eligendi, error eum impedit nisi quaerat, quas quos rem saepe sunt!",
+      "image": "../assets/images/podcast/podcast-image1.jpg",
+      "desc":  {
+        "fullBody": "Monor pofanade pick. Pressa fett. Hotreheten lose. Losk plapose. Trigen funde. Endokemi somesm teralig. Polyde sons liksom lägt. Vures rede av egovis. Maheten fade. Äggkonto emack. Sav sera. Mikropp donyskap. Mijädör preping hexasm. Diagt fåv. Nuligt all. Stenodat primaplastisk. Tren visade då odud. Monoplastisk. Terarelig fack dihossade. Telerade ode. Dung hans. ",
+        "date":  "30.12.2022",
+        "rating":  4
+      }
+    }
+  ]
+}

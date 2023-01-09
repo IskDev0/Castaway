@@ -9,11 +9,11 @@
 </template>
 
 <script setup>
-import data from "../data";
+import data from "../data.json";
 import {computed} from "vue";
 import EpisodeItem from "./EpisodeItem.vue";
 
-let latest = data.slice(0, 3)
+let latest = data.episodesData.slice(0, 3)
 
 let reversedEpisodes = computed(() => {
   return latest.slice(0).reverse()
