@@ -25,4 +25,9 @@
     background: #191919;
     border-radius: 6px;
   }
+  &__img {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
 }

@@ -41,13 +41,19 @@ q:before, q:after {
 textarea{
   border: none;
   white-space: normal;
+  appearance: none;
 }
 input[type=submit]{
   border: none;
   cursor: pointer;
+  appearance: none;
 }
 input[type=submit]:focus{
   outline: none;
+  appearance: none;
+}
+input[type=text]{
+  -webkit-appearance: none;
 }
 a{
   text-decoration: none;
